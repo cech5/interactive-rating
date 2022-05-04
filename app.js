@@ -1,6 +1,5 @@
 
 if(window.location.pathname==='/interactive-rating/'){
-    console.log("document index");
     const form = document.getElementById("form");
   
     form.addEventListener('submit', (event) => {
@@ -14,7 +13,6 @@ if(window.location.pathname==='/interactive-rating/'){
     
     const ptos = document.getElementById("ptos");
     ptos.innerHTML = sessionStorage.getItem('rate');
-    console.log(ptos);
 
 }
 
