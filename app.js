@@ -1,5 +1,5 @@
 
-if(window.location.pathname==='/index.html'){
+if(window.location.pathname==='/interactive-rating/'){
     console.log("document index");
     const form = document.getElementById("form");
   
